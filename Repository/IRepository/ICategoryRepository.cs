@@ -3,7 +3,7 @@
 public interface ICategoryRepository
 {
     ICollection<Category> GetCategories();
-    Category GetCategory(int id);
+    Category? GetCategory(int id);
     bool CategoryExist(int id);
     bool CategoryExist(string name);
     bool CreateCategory(Category category);

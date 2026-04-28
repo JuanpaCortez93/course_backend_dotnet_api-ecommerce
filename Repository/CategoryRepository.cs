@@ -36,7 +36,7 @@ public class CategoryRepository : ICategoryRepository
         return _db.Category.OrderBy(c => c.Name).ToList();
     }
 
-    public Category GetCategory(int id)
+    public Category? GetCategory(int id)
     {
         return _db.Category.FirstOrDefault<Category>(category => category.Id == id) ?? throw new InvalidOperationException($"La categoría con el ID {id} no existe");
     }

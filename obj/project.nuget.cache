@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "L7H5qwCAUPw=",
+  "dgSpecHash": "IebdSUzJqQM=",
   "success": true,
   "projectFilePath": "C:\\Users\\jotha\\Documents\\courses\\dotnet\\ApiEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jotha\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\jotha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\jotha\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\jotha\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
     "C:\\Users\\jotha\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
@@ -54,5 +56,18 @@
     "C:\\Users\\jotha\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\jotha\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "El paquete \"AutoMapper\" 12.0.1 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "projectPath": "C:\\Users\\jotha\\Documents\\courses\\dotnet\\ApiEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\jotha\\Documents\\courses\\dotnet\\ApiEcommerce\\ApiEcommerce\\ApiEcommerce.csproj",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
